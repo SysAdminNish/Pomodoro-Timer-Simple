@@ -73,7 +73,7 @@ class Presenter:
         self.view.set_controls(start_enabled=not self.model.running and self.model.seconds_remaining > 0,
                                pause_enabled=self.model.running,
                                reset_enabled=True)
-        # Always set arc start to -90 (top)
+        # Always set arc start to 90 (top)
         try:
             self.view.set_arc_start(90)
         except Exception:

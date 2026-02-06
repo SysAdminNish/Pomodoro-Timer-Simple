@@ -31,7 +31,7 @@ class View:
         self.reset_callback = None
         self.duration_callback = None
         self._arc = None
-        self._arc_start = -90
+        self._arc_start = 90
         self.quotes = self._load_quotes()
         self.current_quote = random.choice(self.quotes) if self.quotes else "Focus Time"
         self._build_ui()
@@ -85,7 +85,7 @@ class View:
         # Background ring
         self.canvas.create_oval(self._oval_bbox, outline="#E6E7EA", width=14)
 
-        # Progress arc: start at top (-90). We'll animate start via presenter.
+        # Progress arc: start at top (90). We'll animate start via presenter.
         self._arc = self.canvas.create_arc(self._oval_bbox, start=self._arc_start, extent=0, style="arc",
                                            outline=self.ACCENT, width=14)
 
@@ -205,9 +205,9 @@ class View:
 
     def set_progress(self, fraction: float):
         """fraction: 0.0 - 1.0; updates the arc extent.
-        Draws anticlockwise from top (start = -90)."""
+        Draws anticlockwise from top (start = 90)."""
         frac = max(0.0, min(1.0, float(fraction) if fraction is not None else 0.0))
-        extent = -360 * frac  # negative extent draws anticlockwise from the start angle
+        extent = 360 * frac  # negative extent draws anticlockwise from the start angle
         try:
             self.canvas.itemconfigure(self._arc, extent=extent)
         except Exception:
