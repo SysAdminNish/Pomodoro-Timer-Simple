@@ -13,6 +13,15 @@ A minimalistic, professional Pomodoro Timer application built with Python and Tk
 - **Motivational Quotes:** Displays a random Pomodoro one-liner quote from a curated set of 50, each time the app is launched.
 - **Cross-Platform:** Works on Windows and macOS. Includes Windows chime notification support.
 
+---
+## Images
+
+<img width="632" height="900" alt="Screenshot 2026-02-07 at 09 04 47" src="https://github.com/user-attachments/assets/ecee0de5-4e5c-4271-b117-56b94f38bb46" />
+
+
+<img width="632" height="900" alt="Screenshot 2026-02-07 at 09 05 51" src="https://github.com/user-attachments/assets/554b48ca-c8c9-40c4-a9a8-f1ab29b4631e" />
+
+
 
 ---
 
