@@ -1,13 +1,12 @@
 Pomodoro Timer Simple
 
-A minimalistic, professional Pomodoro Timer application built with Python and Tkinter, following the Model-View-Presenter (MVP) architectural pattern. Designed for productivity enthusiasts, this app features a clean white/light grey theme, selectable timer durations, motivational Pomodoro quotes, and a visually engaging spinning progress ring.
+A minimalistic, professional Pomodoro Timer application built with Python and Tkinter. Designed for productivity enthusiasts, this app features a clean white/light grey theme, selectable timer durations, motivational Pomodoro quotes, and a visually engaging spinning progress ring.
 
 ---
 
 ## Features
 
 - **Minimalistic UI:** Clean, modern interface with white and light grey palette for distraction-free focus.
-- **MVP Architecture:** Robust separation of concerns for maintainability and scalability.
 - **Selectable Durations:** Choose Pomodoro and break durations (default: 25 min focus, 5 min break).
 - **Spinning Progress Ring:** Animated circular timer visualization, starting at the top and spinning anticlockwise.
 - **Motivational Quotes:** Displays a random Pomodoro one-liner quote from a curated set of 50, each time the app is launched.
